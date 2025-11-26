@@ -26,7 +26,7 @@
 
 <div>
 
-**Visit the live application:** [Meditrack Frontend](https://satyam1120k.github.io/Meditrack_Frontend)
+**Visit the live application:** [Meditrack Frontend](https://dhaked1.github.io/Meditrack_Frontend)
 
 **Visit the live API:** [Medlister API](https://medlister-backend.vercel.app)
 
