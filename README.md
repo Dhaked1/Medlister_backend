@@ -28,9 +28,9 @@
 
 **Visit the live application:** [Meditrack Frontend](https://satyam1120k.github.io/Meditrack_Frontend)
 
-**Visit the live API:** [Meditrack API](https://meditrack-backend-murex.vercel.app)
+**Visit the live API:** [Medlister API](https://medlister-backend.vercel.app)
 
-**API Documentation:** [API Docs](https://meditrack-backend-murex.vercel.app/docs)
+**API Documentation:** [API Docs](https://medlister-backend.vercel.app/docs)
 
 </div>
 
@@ -98,10 +98,10 @@
 
 1. **Clone the repository**
 
-   ```bash
-   git clone https://github.com/yourusername/Meditrack_Backend.git
-   cd Meditrack_Backend
-   ```
+  ```bash
+  git clone https://github.com/Dhaked1/Medlister_backend.git
+  cd Medlister_backend
+  ```
 
 2. **Install dependencies**
 
@@ -140,7 +140,7 @@
 ### Add a New Patient
 
 ```bash
-curl -X POST "https://meditrack-backend-murex.vercel.app/patients/" \
+curl -X POST "https://medlister-backend.vercel.app/patients/" \
   -H "Content-Type: application/json" \
   -d '{
     "id": "P001",
@@ -156,7 +156,7 @@ curl -X POST "https://meditrack-backend-murex.vercel.app/patients/" \
 ### Get All Patients
 
 ```bash
-curl -X GET "https://meditrack-backend-murex.vercel.app/patients/viewAll"
+curl -X GET "https://medlister-backend.vercel.app/patients/viewAll"
 ```
 
 ### Sort Patients by BMI
@@ -164,7 +164,7 @@ curl -X GET "https://meditrack-backend-murex.vercel.app/patients/viewAll"
 ### User Signup / Login
 
 ```bash
-curl -X POST "https://meditrack-backend-murex.vercel.app/auth/signup" \
+curl -X POST "https://medlister-backend.vercel.app/auth/signup" \
   -H "Content-Type: application/json" \
   -d '{
     "name": "Alice",
@@ -172,7 +172,7 @@ curl -X POST "https://meditrack-backend-murex.vercel.app/auth/signup" \
     "password": "StrongPass123"
   }'
 
-curl -X POST "https://meditrack-backend-murex.vercel.app/auth/login" \
+curl -X POST "https://medlister-backend.vercel.app/auth/login" \
   -H "Content-Type: application/json" \
   -d '{
     "email": "alice@example.com",
@@ -181,7 +181,7 @@ curl -X POST "https://meditrack-backend-murex.vercel.app/auth/login" \
 ```
 
 ```bash
-curl -X GET "https://meditrack-backend-murex.vercel.app/patients/sort?sort_by=weight&order_by=desc"
+curl -X GET "https://medlister-backend.vercel.app/patients/sort?sort_by=weight&order_by=desc"
 ```
 
 ## 🔧 Configuration
@@ -223,10 +223,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Satyam Patel**
+**Repository & Author**
 
-- GitHub: [@samir1120k](https://github.com/samir1120k)
-- Project Link: [Meditrack Backend](https://github.com/samir1120k/Meditrack_Backend)
+- GitHub: [@Dhaked1](https://github.com/Dhaked1)
+- Project Link: [Medlister_backend](https://github.com/Dhaked1/Medlister_backend)
+
+---
+
+## 📦 Deployment / Repository name (important)
+
+This repository is named `Medlister_backend` on GitHub and is the canonical source for deployments. When connecting to Vercel (or other CI/CD providers), point the service to:
+
+`https://github.com/Dhaked1/Medlister_backend`
+
+If you rename the repository on GitHub later, update the remote in your local clone and the deployment provider settings so the build continues to work (steps provided in the next section).
 
 ## 🙏 Acknowledgments
 
