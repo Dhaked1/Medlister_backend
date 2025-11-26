@@ -6,7 +6,7 @@ from app.auth import router as auth_router
 app = FastAPI(title="Patient Management API")
 
 allowed_origins = [
-    "https://satyam1120k.github.io",  # GitHub Pages origin
+    "https://dhaked1.github.io",  # GitHub Pages origin
     "http://localhost:5173",         # Vite dev
 ]
 
